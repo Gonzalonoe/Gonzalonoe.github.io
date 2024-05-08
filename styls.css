@@ -13,7 +13,7 @@ body, div, header, ul, nav, img, h1, h2{
 /* -- HEADER -- */
 
 .header{
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     background-image: url("fondo2.jpg");
     background-size: cover;
@@ -38,12 +38,12 @@ body, div, header, ul, nav, img, h1, h2{
 
 .header__item-container p{
     text-wrap: pretty;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .header__img {
     border: 6px solid #fff;
-    min-width: 200px;
+    min-width: 400px;
     max-width: 40%;
     border-radius: 50%;
     margin: 20px;
@@ -52,9 +52,8 @@ body, div, header, ul, nav, img, h1, h2{
 
 h1{
     margin: 0;
-    font-size: 50px;
+    font-size: 60px;
     text-wrap: balance;
-    
 }
 
 /* -- NAV -- */
@@ -62,14 +61,23 @@ h1{
 .nav{
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-right: 40px;
+    flex-wrap: wrap;
+    padding: 6px 20px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px #0007;
 }
 
 
 .nav__ul {
     margin: 0;
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav__item{
@@ -80,16 +88,41 @@ h1{
     color: rgb(70, 152, 146);
     text-decoration: none;
     display: inline-block;
-    padding: 13px;
+    padding: 20px;
     text-align: center;
+    transition: background-color 0.3s, border-radius 0.3s, outline 0.3s, outline-offset 0.3s;
+    margin: 2px;
+    outline: 0;
+    outline-offset: 0;
 }
 
 .nav__link:hover{
     background-color: hsla(176, 37%, 44%, 0.376);
+    border-radius: 20px;
+    outline: 2px solid rgb(0, 132, 255);
+    outline-offset: -8px;
 }
 
 .nav__logo{
-    width: 40px;
+    width: 55px;
     border-radius: 50%;
 }
 
+.nav__logocontainer{
+    flex-grow: 0.05;
+    text-align: center;
+}
+
+.nav__ulcontainer{
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* MAIN */
+
+main{
+    max-width: 800px;
+    margin: auto;
+    font-size: 30px;
+    text-wrap: pretty;
+}
