@@ -137,42 +137,115 @@ h1{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    transition: all .5s ease;
+    transition: all 1.5s ease;
     transform: translateX(0);
 }
 
 .carrousel_img{
     width: calc(100% / 14);
     min-height: 300px;
-    margin: 20px;
-    
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .carrousel_container_flechas{
     width: 100%;
+    margin: 0;
     background-color: transparent;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
-    font-size: 50px;
-    margin: 0;
+    font-size: 60px;
 }
 
 .flecha{
-    height: 1.5em;
+    height: 70px;
+    margin: 0 40px 0 0;
     background-color: transparent;
-    margin: .2em;
     list-style-type: none;
-    
 }
 
 /* MAIN */
 
-main{
-    max-width: 800px;
-    margin: auto;
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.main_banner{
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40%;
+    max-width: 100%;
+    background-color: transparent;
+    display: flex;
+    box-shadow: 0 0 30px #0007;
+}
+
+.main_img_banner{
+    border-radius: 50px;
+    width: 100%;
+    min-height: 300px;
+}
+
+.main_text{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 40%;
+    max-width: 100%;
+    padding: 30px;
+    background-color: #3898;
+    display: flex;
+    box-shadow: 0 0 30px #0007;
+    border-radius: 50px;
+    
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+
+.main_text_style{
     font-size: 30px;
     text-wrap: pretty;
-    font-size: px;
+    font-weight: 300;
+    font-style: oblique 1deg;
+    white-space: pre-wrap;
 }
+
+/* CARROUSEL EVENTOS */
+
+.carrousel_evento{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 40px;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 50px;
+    gap: 20px;
+}
+
+.flecha_izquierda, .flecha_derecha{
+    width: 10%;
+}
+
+.flecha_izquierda img, .flecha_derecha img{
+    width: 100%;
+}
+
+.carrousel2_img{
+    width: 90%;
+
+}
+
+.carrousel2_img img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+/* FOOTER*/
+
