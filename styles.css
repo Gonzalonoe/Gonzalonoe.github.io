@@ -273,3 +273,65 @@ h3::before{
 
 /* FOOTER*/
 
+.footer{
+    background-color: #241c53;
+    padding: 25px 0;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.footer_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_link{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer_link h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    border-bottom: 2px solid #3898;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer_link, .ul_footer, .li_footer {
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer_link, .ul_footer:hover, .li_footer:hover{
+    color: #fff;
+    padding-left: 6px;
+}
+
+.redes_link  a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(0, 19, 34, 0.467);
+    margin: 0 1px 10px  0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition:all .5s ease;
+}
+
+.redes_link a:hover{
+    background-color: #3898;
+}
