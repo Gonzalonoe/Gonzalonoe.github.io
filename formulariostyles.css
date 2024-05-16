@@ -1,0 +1,124 @@
+body{
+    margin:  0;
+    font-family: montcerrat;
+    color: #eee;
+    background-color: rgb(70, 152, 146);
+
+}
+
+.inicio{
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: rgb(70, 152, 146);;
+    height: 30px;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #f88d28;
+    transition: background-color 0.3s, border-radius 0.3s, outline 0.3s, outline-offset 0.3s;
+    border-radius: 20%;
+}
+
+.inicio:hover{
+    outline: 4px solid #f88d28;
+    outline-offset: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.img_logo{
+    margin-top: 50px;
+    width: 60%;
+    background-color:rgb(70, 152, 146);
+}
+
+img{
+    border-radius: 70%;
+    margin-left: 0px;
+    width: 100%;
+    height: 50%;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    color: #f88d28;
+    font-size: 200%;
+    text-wrap: pretty;
+    font-style: oblique 1deg;
+    text-shadow: #0ba370;
+}
+
+.div_form{
+    width: 100%;
+    background-color:rgb(70, 152, 146);
+}
+
+
+form{
+    height: 90%;
+    background-color: #222;
+    padding: 20px 0;
+    max-width: 670px;
+    margin-left: 20px;
+    box-shadow: 0 0 55px #0ba370;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.Forminput{
+    padding: 10px 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+}
+
+input,textarea, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border-left: 1px solid rgb(70, 152, 146);
+    box-shadow: 0 0 15px #0004;
+    background-color: transparent;
+    border-radius: 4px;
+    color: rgb(70, 152, 146);
+}
+
+option{
+    background-color: #222;
+}
+
+textarea{
+    min-width: 100%;
+    resize: none;
+    font-family: sans-serif;
+    min-height: 100px;
+}
+
+label{
+    font-size: 1em;
+    line-height: 2;
+    
+}
+
+.checkbox{
+    width: auto;
+    height: 10px;
+}
+
+.button{
+    margin-left: auto;
+    text-align: center;
+}

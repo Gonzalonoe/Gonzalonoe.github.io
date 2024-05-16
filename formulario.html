@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textareaylabel</title>
+    <link rel="stylesheet" href="formulariostyles.css">
+</head>
+<body>
+    <div class="container">
+        
+    <div class="img_logo">
+        <a href="index.html" class="inicio">INICIO</a>
+        <img src="/logos,fondos,banner/logo2.jpg" alt="">
+        <p><strong>¡Registrate para no perderte las novedad!</strong></p>
+        <div class="button">
+            <button>ENVIAR</button>
+        </div>
+    </div>
+    <div class="div_form">
+    <form action="">
+        <h2>Formulario de contacto</h2>
+        <div class="Forminput">
+            <label for="nombre">Nombre Completo</label>
+            <input type="nombre" placeholder="Gonzalo Guillermo Noé" id="nombre">
+        </div>
+        <div class="Forminput">
+            <label>Email
+                <input type="email" placeholder="ejemplo@gmail.com">
+            </label>
+        </div>
+        <div class="Forminput">
+            <label>Tipo de usuario
+                <select name="type-of-user" id="">
+                    <option value="User 1"> Usuario </option>
+                    <option value="User 2"> Empresa </option>
+                    <option value="User 3"> Trabajador </option>                    
+                    <option value="User 4"> Otros </option>
+                </select>
+            </label>
+        </div>
+        <div class="Forminput">
+            <label>Referente
+                <input list="referente" name="referente">
+                <datalist id="referente" name="type-of-user" id="">
+                    <option value="Usuario"></option>
+                    <option value="Empresa"></option>
+                    <option value="Trabajador"></option>                    
+                    <option value="Otros"></option>
+                </datalist>
+            </label>
+        </div>
+        <div class="Forminput">
+            <label>Mensaje</label>
+            <textarea rows="6" maxlength="140" placeholder="Deja tu mensaje"></textarea>
+        </div>
+        <div class="Forminput">
+            <label>Acepto los terminos y condiciones
+                <input class="checkbox" type="checkbox">
+            </label>
+        </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
