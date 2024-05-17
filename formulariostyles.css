@@ -37,14 +37,14 @@ img{
     border-radius: 70%;
     margin-left: 0px;
     width: 100%;
-    height: 50%;
+    height: 40%;
     margin-top: 30px;
     justify-content: center;
 }
 
 p{
     text-align: center;
-    color: #f88d28;
+    color: #130901;
     font-size: 200%;
     text-wrap: pretty;
     font-style: oblique 1deg;
@@ -121,4 +121,13 @@ label{
 .button{
     margin-left: auto;
     text-align: center;
+    width: 100%; 
+}
+
+.enviar{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #f88d28;
+    cursor: pointer;
 }
