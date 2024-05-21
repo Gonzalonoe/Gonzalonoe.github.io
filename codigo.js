@@ -50,3 +50,6 @@ function izquierda(){
 }
 
 flechaizquierda.addEventListener("click", izquierda);
+
+/* FORMULARIO DE CONTACTO */
+

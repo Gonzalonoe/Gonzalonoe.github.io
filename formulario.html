@@ -6,6 +6,7 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="formulariostyles.css">
     <link rel="icon" href="logos,fondos,banner/waffle.jpg" type="image/png">
+    <script defer src="codigoform.js"></script>
 </head>
 <body>
     <div class="container">
@@ -13,26 +14,33 @@
     <div class="img_logo">
         <a href="index.html" class="inicio">INICIO</a>
         <img src="/logos,fondos,banner/logo2.jpg" alt="">
-        <p><strong>¡Registrate para no perderte las novedad!</strong></p>
-        <div class="button">
-            <button class="enviar">ENVIAR</button>
-        </div>
+        <p><strong>¡Deja tu contacto no perderte las novedad!</strong></p>
+        
     </div>
-    <div class="div_form">
-    <form action="">
+    
+    <form action="" id="form">
+        <div class="div_form" id="form">
+
         <h2>Formulario de contacto</h2>
+
         <div class="Forminput">
             <label for="nombre">Nombre Completo</label>
-            <input type="nombre" placeholder="Gonzalo Guillermo Noé" id="nombre">
+            <input type="text" placeholder="Gonzalo Guillermo Noé" id="nombre">
         </div>
+
+        <div class="Forminput">
+            <label for="telefono">Telefono</label>
+            <input type="text" placeholder="telefono" id="telefono">
+        </div>
+        
         <div class="Forminput">
             <label>Email
-                <input type="email" placeholder="ejemplo@gmail.com">
+                <input type="email" placeholder="ejemplo@gmail.com" id="email">
             </label>
         </div>
         <div class="Forminput">
             <label>Tipo de usuario
-                <select name="type-of-user" id="">
+                <select name="type-of-user" id="user">
                     <option value="User 1"> Usuario </option>
                     <option value="User 2"> Empresa </option>
                     <option value="User 3"> Trabajador </option>                    
@@ -41,27 +49,18 @@
             </label>
         </div>
         <div class="Forminput">
-            <label>Referente
-                <input list="referente" name="referente">
-                <datalist id="referente" name="type-of-user" id="">
-                    <option value="Usuario"></option>
-                    <option value="Empresa"></option>
-                    <option value="Trabajador"></option>                    
-                    <option value="Otros"></option>
-                </datalist>
-            </label>
-        </div>
-        <div class="Forminput">
             <label>Mensaje</label>
-            <textarea rows="6" maxlength="140" placeholder="Deja tu mensaje"></textarea>
+            <textarea  placeholder="Deja tu mensaje" id="mensaje"></textarea>
         </div>
         <div class="Forminput">
             <label>Acepto los terminos y condiciones
-                <input class="checkbox" type="checkbox">
+                <input class="checkbox" type="checkbox" id="checkbox">
             </label>
         </div>
-    </form>
+        <button type="submit" class="enviar">ENVIAR</button>
+        <p class="error" id="error"></p>
     </div>
+    </form>
     </div>
 </body>
 </html>

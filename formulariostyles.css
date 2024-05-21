@@ -52,12 +52,6 @@ p{
 }
 
 .div_form{
-    width: 100%;
-    background-color:rgb(70, 152, 146);
-}
-
-
-form{
     height: 90%;
     background-color: #222;
     padding: 20px 0;
@@ -67,8 +61,21 @@ form{
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
+
+.error{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #130901;
+    padding-top: 20px;
+}
+
+form{
+    width: 100%;
+    background-color:rgb(70, 152, 146);
+}
+
 
 .Forminput{
     padding: 10px 20px;
