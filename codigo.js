@@ -5,7 +5,7 @@ const flecha = document.querySelectorAll (".flecha")
 
 flecha.forEach( ( cadaFlecha , i )=> {
     flecha[i].addEventListener("click",()=>{
-        carrousel_container_img.style.transform = "translateX(-50%)"
+        carrousel_container_img.style.transform = `translateX(-50%)`
         
         
     })
@@ -51,5 +51,5 @@ function izquierda(){
 
 flechaizquierda.addEventListener("click", izquierda);
 
-/* FORMULARIO DE CONTACTO */
+
 
