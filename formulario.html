@@ -18,8 +18,8 @@
         
     </div>
     
-    <form class="frm" action="" id="form" onsubmit="return validar()">
-        <div class="div_form" id="form">
+    <form class="frm" action="" onsubmit="return validar()">
+        <div class="div_form">
 
         <h2>Formulario de contacto</h2>
 
@@ -54,10 +54,10 @@
         </div>
         <div class="Forminput">
             <label>Acepto los terminos y condiciones
-                <input class="checkbox" type="checkbox" id="checkbox">
+                <input class="checkbox" type="checkbox" id="checkbox" oninput="mostrarEnviado()">
             </label>
         </div>
-        <button type="submit" class="enviar" oninput="mostrarEnviado()">ENVIAR </button>
+        <button type="submit" class="enviar">ENVIAR </button>
         <p class="errorr" id="errorr"></p>
         <ul id="ltaErrores"></ul>
         <ol id="ltaMensajes"></ol>

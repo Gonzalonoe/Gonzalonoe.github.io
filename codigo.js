@@ -13,7 +13,7 @@ flecha.forEach( ( cadaFlecha , i )=> {
 
 /*CARROUSEL 2*/
 
-var imagenes = [
+let imagenes = [
     "imagenesevento/imagen-1.jpg",
     "imagenesevento/imagen-2.jpg",
     "imagenesevento/imagen-3.jpg",
@@ -27,9 +27,9 @@ var imagenes = [
 
 document.imagen.src = imagenes[0];
 
-var flechaderecha = document.querySelector(".flecha_derecha");
-var flechaizquierda = document.querySelector(".flecha_izquierda");
-var contador = 0;
+let flechaderecha = document.querySelector(".flecha_derecha");
+let flechaizquierda = document.querySelector(".flecha_izquierda");
+let contador = 0;
 
 function derecha(){
     contador++;

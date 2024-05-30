@@ -110,10 +110,8 @@ function validar() {
 
 	ltaMensajes.appendChild(li);
 	document.forms[0].reset();
-	
-	mostrarEnviar();
-		return false;//return true;//false para no enviar el form 
+	    return false
 		} else {
-		return false;//si hubo errores cancelar el envío
+		return false;
 		}
 	}
