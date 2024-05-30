@@ -118,7 +118,7 @@ label{
     height: 10px;
 }
 
-.error{
+.errorr{
     width: 600px;
     margin: 10px 20px 20px 30px;
     text-align: center;
@@ -142,3 +142,14 @@ label{
     background-color: #f88d28;
     cursor: pointer;
 }
+
+.frm {
+    display: flex;
+    flex-direction: column;
+    }
+    .frm input, .frm label{
+    margin: 5px 3px;
+    }
+    .error {
+    border: 2px solid red;
+    }

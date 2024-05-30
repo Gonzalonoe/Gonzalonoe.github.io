@@ -18,7 +18,7 @@
         
     </div>
     
-    <form action="" id="form">
+    <form class="frm" action="" id="form" onsubmit="return validar()">
         <div class="div_form" id="form">
 
         <h2>Formulario de contacto</h2>
@@ -57,10 +57,13 @@
                 <input class="checkbox" type="checkbox" id="checkbox">
             </label>
         </div>
-        <button type="submit" class="enviar">ENVIAR</button>
-        <p class="error" id="error"></p>
+        <button type="submit" class="enviar" oninput="mostrarEnviado()">ENVIAR </button>
+        <p class="errorr" id="errorr"></p>
+        <ul id="ltaErrores"></ul>
+        <ol id="ltaMensajes"></ol>
     </div>
     </form>
     </div>
+    
 </body>
 </html>

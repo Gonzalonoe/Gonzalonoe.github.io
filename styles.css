@@ -17,7 +17,7 @@ body, div, header, ul, nav, img, h1, h2{
     box-sizing: border-box;
     background-image: url("fondo2.jpg");
     background-size: cover;
-    display: flex;
+    
 }
 
 .header__overlay{
