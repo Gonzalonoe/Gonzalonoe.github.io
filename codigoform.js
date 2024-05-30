@@ -51,7 +51,7 @@ const mensaje = document.getElementById ("mensaje")
 const checkbox = document.getElementById("checkbox")
 const ltaErrores = document.getElementById("ltaErrores");
 const ltaMensajes = document.getElementById("ltaMensajes");
-mostrarEnviar();
+
 
 function validar() {
 	ltaErrores.innerHTML = "";
